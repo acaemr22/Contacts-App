@@ -17,7 +17,7 @@ import Index from "./routes/index";
 
 const router = createBrowserRouter([
   {
-    path: "/React-Router-Contacts-App/",
+    path: "React-Router-Contacts-App/",
     element: <Root />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
