@@ -3,5 +3,5 @@ import { deleteContact } from "../contacts";
 
 export async function action({params}) {
     await deleteContact(params.contactId);
-    return redirect("/React-Router-Contacts-App")
+    return redirect("/React-Router-Contacts-App/")
 }
